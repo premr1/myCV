@@ -1,0 +1,730 @@
+!SESSION 2011-12-06 05:07:42.746 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-12-06 05:07:53.072
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2011-12-06 05:19:16.814
+!MESSAGE No repository found at http://download.eclipse.org/tools/mylyn/update/e3.4.
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: No repository found at http://download.eclipse.org/tools/mylyn/update/e3.4.
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.fail(ArtifactRepositoryManager.java:253)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:427)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.refreshRepository(ArtifactRepositoryManager.java:504)
+	at org.eclipse.equinox.internal.provisional.p2.ui.operations.ProvisioningUtil.refreshArtifactRepositories(ProvisioningUtil.java:202)
+	at org.eclipse.equinox.internal.provisional.p2.ui.operations.RefreshColocatedRepositoriesOperation.doBatchedExecute(RefreshColocatedRepositoriesOperation.java:51)
+	at org.eclipse.equinox.internal.provisional.p2.ui.operations.RepositoryOperation.doExecute(RepositoryOperation.java:63)
+	at org.eclipse.equinox.internal.provisional.p2.ui.operations.UndoableProvisioningOperation.execute(UndoableProvisioningOperation.java:77)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:511)
+	at org.eclipse.equinox.internal.provisional.p2.ui.ProvisioningOperationRunner$1.run(ProvisioningOperationRunner.java:92)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2011-12-06 05:19:16.816
+!MESSAGE No repository found at http://download.eclipse.org/tools/mylyn/update/e3.4.
+
+!ENTRY org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Problems resolving provisioning plan.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900 to requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.ui/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900 to requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.core/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836 to requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.ui/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836 to requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.core/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding.edit 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding.edit 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.databinding.property/[1.2.0,2.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.xmi 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.teamsupport 0.11.0.201001181900 to requiredCapability: osgi.bundle/org.eclipse.team.svn.ui/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.teamsupport 0.11.0.201001181900 to requiredCapability: osgi.bundle/org.eclipse.team.svn.core/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.teamsupport 0.10.0.201003091836 to requiredCapability: osgi.bundle/org.eclipse.team.svn.ui/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.teamsupport 0.10.0.201003091836 to requiredCapability: osgi.bundle/org.eclipse.team.svn.core/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.converter 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.common 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.xsd 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.454
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.launching/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.debug.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.text/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.edit 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.change 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2xml 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.edit 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.edit.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.edit.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.views/[3.4.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.edit.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.workbench/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.launching/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.text/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ant 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.common.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.common.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.databinding/[1.2.0,2.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.455
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.databinding.property/[1.2.0,2.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.editor 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.editor 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.editor 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.xsd.edit 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.change.edit 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.launching/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.exporter 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.ecore 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.ecore 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.java 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.java 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.java 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.456
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.rose 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.457
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.rose 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.457
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2ecore.editor 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.457
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2ecore.editor 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.457
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2xml.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.457
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2xml.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:37.457
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2xml.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+
+!ENTRY org.eclipse.equinox.p2.director 4 0 2011-12-06 05:28:38.175
+!MESSAGE Problems resolving provisioning plan.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.launching/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.debug.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.text/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.xsd 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.change.edit 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.exporter 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.175
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.change 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ant 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.edit 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.xmi 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.xsd.edit 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.java 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.java 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.java 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900 to requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.ui/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900 to requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.core/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.common 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.editor 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.editor 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.editor 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.edit.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.edit.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.views/[3.4.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.edit.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.workbench/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2xml 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding.edit 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding.edit 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.databinding.property/[1.2.0,2.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.common.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.common.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2ecore.editor 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2ecore.editor 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.launching/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ecore 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.text/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836 to requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.ui/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836 to requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.core/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.core/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.176
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.jdt.launching/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.codegen.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.ecore 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.ecore 2.4.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.converter 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.teamsupport 0.11.0.201001181900 to requiredCapability: osgi.bundle/org.eclipse.team.svn.ui/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.teamsupport 0.11.0.201001181900 to requiredCapability: osgi.bundle/org.eclipse.team.svn.core/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.teamsupport 0.10.0.201003091836 to requiredCapability: osgi.bundle/org.eclipse.team.svn.ui/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.iam.teamsupport 0.10.0.201003091836 to requiredCapability: osgi.bundle/org.eclipse.team.svn.core/[0.7.7,0.8.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.databinding/[1.2.0,2.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.databinding 1.1.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.databinding.property/[1.2.0,2.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2xml.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2xml.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.mapping.ecore2xml.ui 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.ui.ide/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.rose 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.importer.rose 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.resources/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 2 0 2011-12-06 05:28:38.177
+!MESSAGE Unable to satisfy dependency from org.eclipse.emf.ecore.edit 2.5.0.v200906151043 to requiredCapability: osgi.bundle/org.eclipse.core.runtime/[3.5.0,4.0.0).
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:28:38.177
+!MESSAGE No solution found because the problem in D:\Users\Mahadeva\AppData\Local\Temp\p2Encoding1135057118780376377.opb is unsatisfiable.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 10005 2011-12-06 05:30:38.064
+!MESSAGE Cannot complete the request.  See the details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10005 2011-12-06 05:30:38.065
+!MESSAGE Cannot complete the request.  See the details.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.ui/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.ui/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.065
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.066
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.core/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.core/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.067
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.teamsupport 0.11.0.201001181900] requiredCapability: osgi.bundle/org.eclipse.team.svn.ui/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.068
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.teamsupport 0.10.0.201003091836] requiredCapability: osgi.bundle/org.eclipse.team.svn.ui/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.068
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.068
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.068
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.068
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.069
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.teamsupport 0.11.0.201001181900] requiredCapability: osgi.bundle/org.eclipse.team.svn.core/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.teamsupport 0.10.0.201003091836] requiredCapability: osgi.bundle/org.eclipse.team.svn.core/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.070
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.071
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.072
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.073
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.074
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.075
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.076
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.9.0.200905051543,0.9.0.200905051543]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.11.0.201001181900,0.11.0.201001181900]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.10.0.201003091836,0.10.0.201003091836]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Cannot find a solution where both Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.10.0.201003091836,0.10.0.201003091836]] and Match[requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.11.0.201001181900,0.11.0.201001181900]] can be satisfied.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.help.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.help.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.help.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.help/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.buckminster.feature.group 0.9.0.200905051543] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.buckminster.feature.jar/[0.9.0.200905051543,0.9.0.200905051543]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.buckminster.feature.group 0.9.0.200905051543] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.ui/[0.9.0.200905051543,0.9.0.200905051543]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.buckminster.feature.group 0.9.0.200905051543] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.buckminster.core/[0.9.0.200905051543,0.9.0.200905051543]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.wtp.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.wtp.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.wtp.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wtp.core/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.editor.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model.edit/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.editor.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.editor.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.editor.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.settingsxmleditor/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.editor.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomeditor/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.editor.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pomxmleditor/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.core/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.077
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.wizard/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.ui/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.archiva/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.analysis/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.jdt.core/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.core/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.pom.model/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.builder/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.ui/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.search.lucene/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.ui/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.dependencyviewer.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.dependency.viewer/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.dependencyviewer.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.dependencyviewer.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.078
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.core/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.ui/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.10.0.201003091836] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.feature.teamsupport.feature.jar/[0.10.0.201003091836,0.10.0.201003091836]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.core/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.team.svn.ui/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.11.0.201001181900,0.11.0.201001181900]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.feature.teamsupport.feature.group 0.11.0.201001181900] requiredCapability: org.eclipse.equinox.p2.iu/org.eclipse.iam.teamsupport/[0.11.0.201001181900,0.11.0.201001181900]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.teamsupport 0.11.0.201001181900] requiredCapability: osgi.bundle/org.eclipse.team.svn.core/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.teamsupport 0.11.0.201001181900] requiredCapability: osgi.bundle/org.eclipse.team.svn.ui/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.teamsupport 0.10.0.201003091836] requiredCapability: osgi.bundle/org.eclipse.team.svn.core/[0.7.7,0.8.0)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2011-12-06 05:30:38.079
+!MESSAGE Unsatisfied dependency: [org.eclipse.iam.teamsupport 0.10.0.201003091836] requiredCapability: osgi.bundle/org.eclipse.team.svn.ui/[0.7.7,0.8.0)
+!SESSION 2011-12-06 05:35:58.237 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-12-06 05:36:01.740
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

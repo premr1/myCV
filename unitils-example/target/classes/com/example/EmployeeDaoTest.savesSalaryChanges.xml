@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<dataset>
+  <employees id="100" salary="54200.24" title="Worker Bee"/>
+  <employees salary="70444.88"/>
+  <employees salary="30200.55"/>
+  <employees id="103" salary="40777.11" title="Worker Bee"/>
+  <employees salary="82100"/>
+</dataset>
